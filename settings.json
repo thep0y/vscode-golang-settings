@@ -1,0 +1,61 @@
+{
+    "workbench.colorTheme": "Ayu Mirage",
+    "editor.wordWrap": "on",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "go.docsTool": "gogetdoc",
+    "go.testFlags": ["-v","-count=1"],
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatTool": "goimports",
+    "go.gocodeAutoBuild": false,
+    "go.goroot": "/usr/local/go",
+    "go.gopath": "/home/thepoy/go",
+    "go.toolsGopath": "/home/thepoy/go",
+    "go.autocompleteUnimportedPackages": true,
+    "go.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "debug.console.fontSize": 16,
+    "debug.console.lineHeight": 30,
+    "editor.fontFamily": "'Source Code Variable'",
+    "editor.fontSize": 15,
+    "sync.gist": "9d9538d15672b223f067dada16bc329e",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.quietSync": true,
+    "workbench.activityBar.visible": true,
+    "files.autoSave": "onWindowChange",
+    "go.useLanguageServer": true,
+    "files.associations": {
+        "*.go": "go"
+    },
+    "explorer.confirmDelete": false,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "gopls": {
+        "completeUnimported": true,
+        "usePlaceholders": true,
+        "completionDocumentation": true,
+        "hoverKind": "SynopsisDocumentation"
+    },
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on",
+        "GOPROXY": "https://goproxy.cn,direct"
+    },
+    "files.eol": "\n",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }
+}
