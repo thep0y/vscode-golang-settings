@@ -1,0 +1,85 @@
+{
+    "workbench.colorTheme": "Ayu Mirage",
+    "editor.wordWrap": "on",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "go.docsTool": "gogetdoc",
+    "go.testFlags": [
+        "-v",
+        "-count=1"
+    ],
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatTool": "goimports",
+    "go.gocodeAutoBuild": false,
+    "go.goroot": "/usr/local/go",
+    "go.gopath": "/home/thepoy/go",
+    "go.toolsGopath": "/home/thepoy/go",
+    "go.autocompleteUnimportedPackages": true,
+    // "go.formatTool": "goreturns",
+    "go.useLanguageServer": true,
+    "go.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "debug.console.fontSize": 16,
+    "debug.console.lineHeight": 30,
+    "editor.fontFamily": "'Monaco'",
+    "editor.fontSize": 15,
+    "sync.gist": "9d9538d15672b223f067dada16bc329e",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.quietSync": true,
+    "workbench.activityBar.visible": true,
+    "files.autoSave": "onWindowChange",
+    "files.associations": {
+        "*.go": "go"
+    },
+    "explorer.confirmDelete": false,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "gopls": {
+        "completeUnimported": true,
+        "usePlaceholders": false, // 不自动填参，不然还得手动删，麻烦
+        "completionDocumentation": true,
+        "hoverKind": "SynopsisDocumentation"
+    },
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on",
+    },
+    "files.eol": "\n",
+    "python.formatting.yapfPath": "/home/thepoy/miniconda3/bin/yapf",
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintPath": "/home/thepoy/.local/bin/pylint",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=wx",
+        // "--errors-only",
+        "--disble=E0401"
+    ],
+    "terminal.integrated.inheritEnv": false,
+    "python.showStartPage": false,
+    "python.linting.flake8Path": "/home/thepoy/miniconda3/bin/flake8",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=24888888"
+    ],
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    // "python.pythonPath": "/home/thepoy/miniconda3/envs/spider/bin/python",
+}
